@@ -1,0 +1,86 @@
+body{
+    background-color: lightgray;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.wrapper {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    margin: 0 auto;
+}
+.container {
+    max-width: 1000px;
+    height: 1000px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px black solid;
+    background-color: white;
+}
+.sidebarleft {
+    background-color: #D9D9D9;
+    max-width: 34%;
+    height: 1000px;
+    float: left;
+    background-color: rgba(11,21,55);
+    border-right: 1px black solid;
+    color: white;
+}
+.sidebarright{
+    height: auto;
+    float: right;
+    background-color: white;
+
+    margin: 30px;
+}
+.picture {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 30px;
+}
+.line {
+    width: 90%;
+    height: 3px;
+    background-color: white;
+    margin: 30px;
+}
+.line1 {
+    width: 100%;
+    height: 3px;
+    background-color: black;
+}
+#education {
+    margin-top: 150px;
+}
+#skill {
+    margin-top: 360px;
+}
+.namebox {
+    text-align: center;
+    background-color: rgba(11,21,55);
+    color: white;
+    padding: 20px;
+    padding-left: 170px;
+    padding-right: 170px;
+    margin-right: 0px;
+    margin-top: 0px;
+}
+box{
+    text-align: center;
+    background-color: white;
+    color: black;
+    padding: 20px;
+    margin-right: 0px;
+}
+#Workexperience{
+    margin-top: 110px;
+}
+#reference{
+    margin-top: 400px;
+}
